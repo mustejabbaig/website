@@ -1,0 +1,74 @@
+/*
+.menu-bar {
+  position: relative; /* z-index works on positioned elements (position:absolute, position:relative, or position:fixed)
+  z-index: 10; /* Higher than the canvas
+  background-color: #d80808;
+  border-bottom: 1px solid #ddd;
+}
+*/
+.menuFill {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* li around basic buttons */
+.nav-item {
+  width: 5.5vw;
+  margin: 10px;
+}
+
+/* fix hover readability */
+a.btn:hover, a.btn:focus {
+  color: white !important;
+}
+
+/* fix active redo button, why does undo work?*/
+#redoButton, #undoButton{
+  color: black;
+  background-color: white;
+}
+
+#redoButton:hover, #redoButton:focus, #undoButton:hover, #undoButton:focus {
+  color: white !important;
+  background-color: black !important;
+}
+
+/*
+.menu-bar ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  background-color: aquamarine;
+}
+  
+.menu-bar li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.menu-bar li:hover, .menu-bar .active {
+  background-color: #ddd;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-bar .submenu {
+  display: block;
+}
+
+
+.submenu li {
+  padding: 12px;
+  text-align: left;
+}
+
+.submenu li:hover {
+  background-color:aquamarine;
+}
+*/

@@ -1,0 +1,36 @@
+## User Stories
+//"Basic features"
+- A user wants to upload an image to the site
+1d
+- A user wants to rotate an image by 90 degrees
+0.5d
+- A user wants to compress an image to decrease its file size
+2d
+- A user wants to draw notes onto an image, using varying colors, a pencil and a highlighter. If they mess up, they want to be able to erase what they drew.
+5d
+- A user wants to add text to their picture
+2d
+- A user wants to mirror their picture
+2d
+- A user wants to select a small part of their uploaded image to either copy or delete it
+4d
+- A user wants to add a background to their transparent picture by adding a background layer
+1d
+- A user wants to be able to undo any accidental changes
+3d
+
+//"Algorithmically complex features"
+- A user wants to be able to crop their image
+2d
+- A user wants to be able to use content-aware scaling to change their image
+10d
+- A user wants to sharpen their image
+5d
+- A user wants to angle their image differently
+4d
+- A user wants to change the color pallete or look of their image via filters or other hue/saturation changes
+4d
+- A user wants to be able to use a smart select tool that selects an entire object
+8d
+- A user wants to remove an object from the image
+2d

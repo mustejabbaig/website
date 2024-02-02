@@ -1,0 +1,31 @@
+/* Dialogs.css */
+.bottom-right-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 100%;
+  }
+  .layer-panel {
+    display: flex;
+    margin-left: 0px;
+    padding-top: 10px;
+    flex-direction: column;
+    gap: 10px; /* Adjust the gap between layers */
+  }
+
+  .layerButton {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  .layer-checkbox {
+    margin-right: 5px; /* Adjust the margin between checkbox and text */
+  }
+  
+  .preview-button {
+    margin-left: auto; /* Push the show preview button to the right */
+  }
+  
+  

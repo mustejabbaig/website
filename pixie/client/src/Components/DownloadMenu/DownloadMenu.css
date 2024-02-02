@@ -1,0 +1,61 @@
+/*This File contains the CSS for the download PopUp Menue*/
+
+/*This class will be added to the container if the menue is triggered*/
+.downloadMenuVisible{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    align-items: center;
+    background-color: rgba(255,255,255,.4);
+}
+
+/*on close of the menue the vis class wil be exchanged with this hid class*/
+.downloadMenuHidden{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    align-items: center;
+    background-color: rgba(255,255,255,.4);
+}
+
+.DM-Box{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    opacity: 200%;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.DM-Box h4{
+    text-align: center;
+}
+
+
+.DM-Box tr{
+    text-align: center;
+    vertical-align: top;
+}
+
+.DM-Box button{
+    min-width: 70px;
+}
+
+.DM-Box table{
+    margin-left: auto;
+    margin-right: auto;
+}

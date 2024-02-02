@@ -1,0 +1,124 @@
+.fill {
+  height: 100%;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 0px;
+}
+
+.canvas {
+  display:flex;
+}
+
+#welcomeRow {
+  max-height: 20vh;
+}
+
+.content {
+  background-color: transparent;
+  padding: 0px 10px;;
+}
+
+.menu {
+  margin: 10px 0px;
+  padding: 0px 0px;
+}
+
+/*Button on Start Page*/
+#startButton {
+  background-color: #e34424;
+  color: white;
+}
+
+#startButton:hover, #startButton:focus {
+  border: 2px solid #e34424;
+  background-color: white;
+  color: #e34424;
+}
+
+
+#imageRow {
+  margin: 0px;
+  padding: 0px;
+  max-height: 80vh;
+}
+
+#welcome {
+  color: #e34424;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*
+.toolbar {
+/*   width: 300px; Adjust width as necessary 
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray; /* Light grey background, for example 
+  /*   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}*/
+
+/* TODO: as far as i can see, these dont so anything since their selectors dont adress any actual classNames?
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ff015e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*/
+
+/*
+.app {
+  background-color: blueviolet;
+  color:aqua;
+  font-family: Arial, sans-serif;
+  display: flex; /* Use Flexbox to create a vertical layout 
+  flex-direction: column; /* Stack children vertically
+  height: 100vh; /* Full height of the viewport
+}
+
+.App {
+  text-align: center;
+}
+
+.canvas-container {
+  flex-grow: 1; /* Allow the canvas to grow and take remaining space 
+  border: 1px solid #ccc; /* Add a border for the canvas container 
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.canvas-container {
+  position: relative;
+  z-index: 1; /* Lower than the menu bar 
+  border: 1px solid #ccc;
+  /* ... other styles ... 
+}
+*/

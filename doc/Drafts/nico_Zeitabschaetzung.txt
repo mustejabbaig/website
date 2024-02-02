@@ -1,0 +1,14 @@
+Starting Page: 1 day
+General "upload, edit, save": this is the project lol: till the end of this semester
+Layering Features (add, delete, move, display, choose): 1 week
+Undo/Redo: 1 week
+Save all the changes: 1 day (we just need the base structure, which we will give to the decoder, which can take more time, but we will need that anyway for all the stories)
+- Select, Move, Delete, Copy, Paste: 2 weeks
+- Rotate: not even a day
+- mirror: 1 day
+- Brush, Text: 3 weeks
+- Cropping: 4 days
+- compress: we use decoder not from us, so maybe 1 day?
+- content aware scaling: 1 week
+- Color Filter: 8 weeks
+- AI smart select: 6 years lol

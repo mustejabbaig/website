@@ -1,0 +1,61 @@
+## User Stories
+### General
+- The user wants a starting page which introduces him to the application
+    - *Time required / estimated effort*:
+        - **10h when only local, 25h when run on a server (setup consumes more time when configuring an entire system)**
+- As a user of the image editing app, I want to upload and edit a photo I took during my vacation and save it after I'm done, so that I can enhance and customize it before sharing it with my friends.
+	- **TODO** ?? isnt that the entire project time combined?????
+### Starting Page
+- The user wants to have an intuitive upload button
+    - The user wants to be able to only upload pictures
+    - The user should be redirected to a different site (the *editor*) after successfully uploading a picture to edit it.
+    - The user wants to be able to upload images via dragging and dropping them from the OS onto the button
+    - The user wants to be able to click on the button and be greeted with the standard OS file choosing mechanisms to upload the picture
+- The user wants to see the name of the application above the upload button
+- The user wants to get an error message when uploading a non-image file
+    - The user wants to be able to try to upload pictures as many times as he wants after getting the error message
+    - *Time required / estimated effort*:
+        - **16h**
+### Editor - Layering (left side)
+- As a casual photography editor, I want to be able use multiple layers in my picture editing process, so that I can add a PNG picture with a transparent background on top of my personal background. 
+    - *Time required / estimated effort:*
+        - **18h**
+### Editor - Top Bar and left Bar (functionality)
+- The user wants to select all the availible tools via buttons or a dropdown-menu on the top-bar
+- When selecting a tool, the user wants to get visual feedback (highlighting the button for example)
+- Furthermore, the user wants to have all the detailled functionality of this highlighted tool to be displayed on the left area.
+- As a meticulous editor, I want to be able to quickly undo any change I have made, as well as redo any options I have undone, so that I can easily jump back and choose a different option.
+    - *Time required / estimated effort:*
+        - **20h**
+- The user wants to save the picture with all it's pending changes, and also wants to be able to upload a new picture either into a new/existing layer or into a completly new project
+    - Time required / estimated effor:
+        - **8h**
+- As a casual photographer, I want to be able to select a part of an image, so that I can not only freely edit only this part of the image, but also be able to copy, cut, delete, or move only this part of the image.
+    -  *Time required / estimated effort:*
+        - **35h**
+        
+- As a social media user, I want to rotate my horizontal picture by 90 degrees, so that I can upload it in a vertical format.
+    - *Time required / estimated effort:*
+        - **8h**
+- As a user, I want to mirror my picture on the y-axis or x-axis (centred to image), so that I can easily read the inverted text I took a picture of.
+    - *Time required / estimated effort:*
+        - **2h**
+- As an annotator, I want to write onto my images in different colors and thicknesses using a pencil-like tool, as well as adding text onto my image, so that I can add different kinds of notes to my picture.
+    - *Time required / estimated effort:*
+        - **50h**
+- The user wants a button which gives him access to the crop-tool
+    - As a social media user, I want to be able to crop my picture to certain dimension so that I can easily upload this as my profile picture on a social media site.
+    - *Time required / estimated effort:*
+        - **12h**
+- As a user with limited storage space, I want to be able to compress my pictures to lower their file size so that I can keep them on my phone.
+    - *Time required / estimated effort:*
+        - **20h**
+- As a tech-savvy photographer, I want to move two historical structures in my image closer together without distorting them by removing the space between them via a content-aware tool, so that I can get an image of them next to each other.
+    - *Time required / estimated effort:*
+        - **50h**
+- As a landscape photographer, I want to be able to freely adjust the color levels (for example brightness, saturation, contrast) of my image, so that I can change the quality of the picture.
+    - *Time required / estimated effort:*
+        - **30h**
+- As an user of the app, I want to be able to loosely draw a selection around an object and let the editor select the object automatically, I then want to be able to remove the object using a content-aware fill option, so that there is no empty gap left behind after the removal.
+    - *Time required / estimated effort:*
+        - **60h**

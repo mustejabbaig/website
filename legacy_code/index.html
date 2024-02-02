@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your HTML Page</title>
+  <script src="out_js/saveButton.js" defer></script>
+  <script src="out_js/brushButton.js" defer></script>
+  <script src="out_js/loadButton.js" defer></script>
+  <script src="out_js/cropButton.js" defer></script>
+  <script src="out_js/mirrorButton.js" defer></script>
+  <script src="out_js/selectButton.js" defer></script>
+  <script src="out_js/rotateButton.js" defer></script>
+  <script src="out_js/undoRedoButtons.js" defer></script>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    #top-area {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center safe;
+      align-items: center safe;
+      align-content: center;
+      row-gap: 10px;
+      column-gap: 10px;
+      background-color: #686868;
+      height: 100px;
+    }
+
+    .topButton{
+      margin: 10px;
+      height: 20px;
+      background: #ffffff;
+      border: none;
+    }
+  
+    #other {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center safe;
+      align-content: center safe;
+      row-gap: 10px;
+      height: 500px;
+    }
+
+    .picture-area {
+      flex-grow: 3;
+      background-color: #3b3b3b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .side-area {
+      flex-grow: 1;
+      flex-flow: column;
+      background-color: #7b7b7b;
+    }
+
+    .leftButton{
+      margin: 10px;
+      background: #ffffff;
+      border: none;
+    }
+
+    .dropdown {
+      margin: 10px;
+      background: #ffffff;
+      border-width: 1px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+  <div id = "top-area">
+    <div>
+      <select id="dropdown" onchange="dropdownChange()">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+    </div>
+
+      <button class = "topButton" onclick="clickedSave()">save</button>
+      <button class = "topButton" onclick="clickedLoad()">load</button>
+      <button class = "topButton" onclick="clickedUndo()">undo</button>
+      <button class = "topButton" onclick="clickedRedo()">redo</button>
+      <button class = "topButton" onclick="clickedSelect()">select</button>
+      <button class = "topButton" onclick="clickedBrush()">brush</button>
+      <button class = "topButton" onclick="clickedRotate()">rotate</button>
+      <button class = "topButton" onclick="clickedMirror()">mirror</button>
+      <button class = "topButton" onclick="clickedCrop()">crop</button>
+  </div>
+
+  <div id = "other">
+
+    <div class = "side-area">
+        <button class = leftButton onclick="leftButton1Click()">button 1</button> <br>
+        <button class = leftButton onclick="leftButton2Click()">button 2</button> <br>
+        <button class = leftButton onclick="leftButton3Click()">button 3</button> <br>
+    </div>
+
+    <div class ="picture-area">
+      Here is a picture
+    </div>
+
+    <div class = "side-area">
+      <button onclick="plusButtonClick()">+</button>
+    </div>
+
+  </div>
+</body>
+</html>
